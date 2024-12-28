@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"><!--external style sheet linking through the href tag and link element-->
     <style>
         p{
-            color:yellow !important;
-        }
+            color:red  ;
+            background-color:blanchedalmond;
+        }/*internal styling inside the style element internal css and external css have same specificity value but it depends on which mentions at nearer to the body first that style rle will be applied to that element*/
     </style>
+    
 </head>
 <body>
     <!-- in how many ways we can style html elements through css is 1,inline css 2.internal css inside style tag in head section 3.external style sheet -->
     <!-- for example we have a lement called paragraph  -->
-    <p style="color:red;background-color:aqua;width:200px;text-align:center;margin:auto;">this is a paragraph</p> <!--inline stylling it has the highest specificity value than all others but in some cases if we want to overwrite this also we achive it by !important key word -->
+    <p>this is a paragraph</p> <!--inline stylling it has the highest specificity value than all others but in some cases if we want to overwrite this also we achive it by !important key word -->
 
 
 </body>
